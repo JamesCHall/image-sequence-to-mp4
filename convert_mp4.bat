@@ -21,7 +21,7 @@ IF ERRORLEVEL ==2 (
 )
 IF ERRORLEVEL ==3 (
     set filetype=exr
-    set exr_param="-apply_trc iec61966_2_1 "
+    set exr_param=-apply_trc iec61966_2_1
 )
 cls
 
